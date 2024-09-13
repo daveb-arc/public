@@ -1,0 +1,10 @@
+wp-admin
+wp-content/.tmp-wpesign
+wp-content/plugins/*
+wp-content/themes/Avada
+wp-content/themes/custom
+wp-content/themes/twentytwentyfour
+wp-content/updraft
+wp-content/upgrade
+images
+wp-includes
