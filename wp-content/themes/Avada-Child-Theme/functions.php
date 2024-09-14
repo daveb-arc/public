@@ -28,6 +28,11 @@ if ( ! empty( $fields['Form ID'] ) ) :
 endif;
 }
 
+add_filter( 'gform_field_value_name', 'my_custom_population_function' );
+  function my_custom_population_function( $value ) {
+      return get_the_title();
+  }  
+
 add_shortcode('form_id', 'get_tec_form_id');
 
 /**
